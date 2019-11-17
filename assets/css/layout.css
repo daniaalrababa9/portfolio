@@ -120,6 +120,15 @@ form input[type="text"],
                 background-image: url("images/overlay.png");
             }
             #main > section.one {
-                background-color: #81918E;
-                background-image: url("../../images/banner.jpg");
-            }
+                background-color: rgb(172, 233, 148);
+				/* background-image: url("../../images/banner.jpg"); */
+				position: relative;
+				z-index: 1;
+			}
+			video {
+				position: absolute;
+				top:0;
+				left:0;
+				z-index: -1;
+				opacity: 0.5;
+			}
